@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="p-10">
+        <section class="w-full space-y-10">
+            <div class="w-full space-y-10">
+                <h1 class="text-3xl font-medium font-sans">
+                    Dashboard
+                </h1>
+
+                <div class="border-2 border-black flex justify-between items-center h-24 pl-10 pr-12">
+                    <p class="text-sm">
+                        Validasi Terakhir : 22 Feb 2023
+                    </p>
+                    <button class="text-sm border-2 border-black px-8 py-3">
+                        Validasi Data
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex flex-col space-y-6">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-3xl font-medium font-sans">
+                        Submisi
+                    </h1>
+                    <div class="space-x-5">
+                        <button class="px-7 py-2 border-2 border-black text-sm">
+                            X Batalkan Lamaran
+                        </button>
+                        <button class="px-7 py-2 border-2 border-black text-sm">
+                            + Tamah Lamaran
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <table class="w-full text-center">
+                        <thead class="font-sans">
+                            <tr class="[&>th]:border [&>th]:border-black text-white bg-zinc-700 border border-black">
+                                <th class="py-2">
+                                    <input type="checkbox" name="" id="">
+                                </th>
+                                <th>
+                                    Posisi
+                                </th>
+                                <th>
+                                    Perusahaan
+                                </th>
+                                <th>
+                                    Berakhir
+                                </th>
+                                <th>
+                                    Status
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="[&>tr>td]:border [&>tr>td]:border-black font-sans odd:[&>tr]:bg-gray-200">
+                            <tr class="">
+                                <td class="py-2">
+                                    <input type="checkbox" name="" id="">
+                                </td>
+                                <td>
+                                    IT Support
+                                </td>
+                                <td>
+                                    PT. Visual Data
+                                </td>
+                                <td>
+                                    22/03/2023
+                                </td>
+                                <td>
+                                    Pending
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="py-2">
+                                    <input type="checkbox" name="" id="">
+                                </td>
+                                <td>
+                                    Staf HRD
+                                </td>
+                                <td>
+                                    PT. Makmur Utama
+                                </td>
+                                <td>
+                                    22/03/2023
+                                </td>
+                                <td>
+                                    Ditolak
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
